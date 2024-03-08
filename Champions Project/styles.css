@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+.container {
+    margin: 0 auto;
+    background-color: #1B1924;
+    height: 1600px;
+    width: 400px;
+    text-align: center;
+}
+
+img {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    height: 90px;
+    width: 90px;
+}
+
+h2 {
+    color: #ffff;
+    margin-bottom: 1rem;
+}
+
+h3 {
+    color: #ffff;
+    margin-top: 1rem;
+}
+
+#list li {
+    color: #ffff;
+    list-style: none;
+}
+
+textarea {
+    border: none;
+    border-radius: .5rem;
+    margin-bottom: .3rem;
+    background-color: #444059;
+    color: #8F8F8F;
+    padding-top: .5rem;
+    padding-left: .5rem;
+    height: 125px;
+    width: 300px;
+}
+
+textarea:focus {
+    outline: none;
+    border: none;
+}
+
+.input-1 {
+    background-color: #444059;
+    color: #8F8F8F;;
+    margin-bottom: .5rem;
+    border: none;
+    padding: 10px 3px;
+    border-radius: .5rem;
+    text-align: center;
+}
+
+.input-1:focus {
+    outline: none;
+    border: none;
+}
+
+.input-2 {
+    background-color: #444059;
+    color: #8F8F8F;
+    margin-bottom: .5rem;
+    margin-left: .3rem;
+    border: none;
+    padding: 10px 3px;
+    border-radius: .5rem;
+    text-align: center;
+}
+
+.input-2:hover {
+    outline: none;
+    border: none;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 1rem 8rem;
+    border-radius: .5rem;
+    background-color: #28A9F1;
+    border: none;
+}
+
+button:hover {
+    background-color: #8F8F8F;
+}
+
+.message-box {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 1rem 3rem;
+    margin-left: 2.9rem;
+    margin-top: 1.5rem;
+    border-radius: 5px;
+    width: 75%;
+    text-align: left;
+}
+
+.message-box p {
+    color:  black;
+    margin-bottom: .5rem;
+}
+
+.message-box strong {
+    font-weight: bold;
+}
+
+.fa-heart {
+    margin-left: 7rem;
+}
